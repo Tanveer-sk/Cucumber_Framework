@@ -1,3 +1,4 @@
+
 package com.inportia.batch03Framework.stepDefs;
 
 import com.inportia.batch03Framework.pageObjects.LayerOne;
@@ -18,8 +19,8 @@ public class LoginSteps {
 	}
 
 	@Given("^select \"([^\"]*)\" radio button on layer one$")
-	public void select_radio_button_on_layer_one(String arg1) throws Throwable {
-	   layer_one.select_radio_button(arg1);
+	public void select_radio_button_on_layer_one(String Honda) throws Throwable {
+	   layer_one.select_radio_button("Honda");
 	}
 
 	@Given("^close browser$")

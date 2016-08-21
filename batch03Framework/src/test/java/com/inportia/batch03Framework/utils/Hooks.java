@@ -6,6 +6,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 
+import com.inportia.batch03Framework.pageObjects.LayerOne;
+
 
 
 
@@ -19,6 +21,7 @@ public class Hooks {
 	{
 		System.out.println("inside before method");
 		driver =  BrowserManager.getBrowser(bname);
+		
 	}
 	
 	public static WebDriver getBrowser(String bname)

@@ -30,7 +30,11 @@ public class LayerOne extends BasePage {
 		 {
 		    case "BMW":
 		    	 driver.findElement(radiobox_benz).click();
-		    default:
+		    case "Honda":
+		    	driver.findElement(radiobox_honda).click();
+		    case "Benz":
+		    driver.findElement(radiobox_benz).click();
+		  
 				 break;
 		 }
 	  }
